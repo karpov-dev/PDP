@@ -1,0 +1,6 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId,flexipage:availableForRecordHome">
+  <aura:attribute name="recordId" type="String"/>
+
+  <c:QuickActionBodiless/>
+  <c:Staff_AssignByApp applicationId="{!v.recordId}"/>
+</aura:component>
